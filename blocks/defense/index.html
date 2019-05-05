@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Defense - Mindustry Wiki</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../stylesheets/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Defense";
+    var mkdocs_page_input_path = "blocks/defense.md";
+    var mkdocs_page_url = "/wiki/blocks/defense/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Mindustry Wiki</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Welcome!</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../GettingStarted/">Getting Started</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../characteristics/">Characteristics</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../items/">Items</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../liquids/">Liquids</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../status_effects/">Status effects</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Beginner Tutorials</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Beginner Tutorials/Basics/">Basics</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../Beginner Tutorials/FAQ/">Frequently Asked Questions</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Blocks</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../crafting/">Crafting Blocks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../debug/">Debug</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Defense</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#copper-wall">Copper wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-copper-wall">Large copper wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#dense-alloy-wall">Dense alloy wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-dense-alloy-wall">Large dense alloy wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#thorium-wall">Thorium wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-thorium-wall">Large thorium wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#phase-wall">Phase wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-phase-wall">Large phase wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#surge-wall">Surge wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-surge-wall">Large surge wall</a></li>
+    
+
+    <li class="toctree-l3"><a href="#door">Door</a></li>
+    
+
+    <li class="toctree-l3"><a href="#large-door">Large door</a></li>
+    
+
+    <li class="toctree-l3"><a href="#mending-projector">Mending projector</a></li>
+    
+
+    <li class="toctree-l3"><a href="#overdrive-projector">Overdrive projector</a></li>
+    
+
+    <li class="toctree-l3"><a href="#force-projector">Force projector</a></li>
+    
+
+    <li class="toctree-l3"><a href="#shock-mine">Shock mine</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../distribution/">Distribution</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../liquid/">Liquid</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../map/">Map</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../power/">Power</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../production/">Production Blocks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../storage/">Storage</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../turret/">Turret</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../unit/">Unit</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../upgrade/">Upgrade</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Mindustry Wiki</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Blocks &raquo;</li>
+        
+      
+    
+    <li>Defense</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="copper-wall">Copper wall</h2>
+<p>Health is 240  </p>
+<h2 id="large-copper-wall">Large copper wall</h2>
+<p>Health is 960<br />
+Size is 2   </p>
+<h2 id="dense-alloy-wall">Dense alloy wall</h2>
+<p>Health is 330  </p>
+<h2 id="large-dense-alloy-wall">Large dense alloy wall</h2>
+<p>Health is 1320<br />
+Size is 2  </p>
+<h2 id="thorium-wall">Thorium wall</h2>
+<p>Health is 600  </p>
+<h2 id="large-thorium-wall">Large thorium wall</h2>
+<p>Health is 2400<br />
+Size is 2  </p>
+<h2 id="phase-wall">Phase wall</h2>
+<p>Health is 450  </p>
+<h2 id="large-phase-wall">Large phase wall</h2>
+<p>Health is 1800<br />
+Size is 2  </p>
+<h2 id="surge-wall">Surge wall</h2>
+<p>Health is 690  </p>
+<h2 id="large-surge-wall">Large surge wall</h2>
+<p>Health is 2760<br />
+Size is 2  </p>
+<h2 id="door">Door</h2>
+<p>Health is 300  </p>
+<h2 id="large-door">Large door</h2>
+<p>Health is 1200<br />
+Size is 2  </p>
+<p>TODO: Better projector information</p>
+<h2 id="mending-projector">Mending projector</h2>
+<p>Size is 2<br />
+Consumes:<br />
+- 0.2 Power (every third)<br />
+- Optionally phasematter  </p>
+<h2 id="overdrive-projector">Overdrive projector</h2>
+<p>Size is 2<br />
+Can't overdrive<br />
+Consumes:<br />
+- 0.35 Power (every third)<br />
+- Optionally phasematter  </p>
+<h2 id="force-projector">Force projector</h2>
+<p>Size is 3<br />
+Consumes:<br />
+- 0.2 Power (every third)<br />
+- Optionally phasematter  </p>
+<h2 id="shock-mine">Shock mine</h2>
+<p>Health is 40<br />
+Damage is 11<br />
+Self damage is 7<br />
+Lighting length is 10<br />
+Creates 5 lighting tendrils  </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../distribution/" class="btn btn-neutral float-right" title="Distribution">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../debug/" class="btn btn-neutral" title="Debug"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../debug/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../distribution/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
